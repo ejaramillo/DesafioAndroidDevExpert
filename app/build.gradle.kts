@@ -61,7 +61,14 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    // para descargar imagenes con compose
     implementation("io.coil-kt:coil-compose:2.4.0")
+    // instanciar el viewmodel dentro de compose
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+    // para hacer el asObserver
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.2")
+    // compose runtime runtime live data
+    implementation("androidx.compose.runtime:runtime-livedata:1.5.3")
     
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
